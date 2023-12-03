@@ -48,8 +48,9 @@ fclean: clean
 
 re: fclean all
 
+# Checking outputs
 printvar:
 	@echo variables objeto $(OBJS) 
 	@echo nombre libft $(LIBFTDIR) $(LIBFTNAME) -- $(COMPLETLIBFT)
 
-.PHONY: all makelibft clean fclean re
+.PHONY: all makelibft clean fclean re printvar
