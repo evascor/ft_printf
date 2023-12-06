@@ -65,17 +65,3 @@ int	ft_printf(char const *format, ...)
 	va_end(args);
 	return (counter);
 }
-// int main ()
-// {
-// 	void *p = "1234";
-// 	// int i = ft_printf("HolaQuetal [%s] [%%] [%d] [%p] [%x] [%X] [%i][%u][%c]\n","Esto es una string", 1234, p, 1234, 1234, 1234, 1234, 'a');
-// 	// printf ("Tu printf da [%d]\n", i);
-// 	// i = printf("HolaQuetal [%s] [%%] [%d] [%p] [%x] [%X] [%i][%u][%c]\n","Esto es una string", 1234, p, 1234, 1234, 1234, 1234, 'a');
-// 	// printf ("Deberia dar [%d]\n", i);
-// 	// printf("BYTES: %d\n", ft_printf("%i\n", -2147483649));
-// 	// printf("BYTES: %d\n", printf("%i\n", -2147483649));
-// 	int i = ft_printf("(lwd$&:\nfk%x[%c#N\the~,%sw\fZ@8bbI!Y%i6,|Sts(?`\f%i4}[&uFdj\r%u.J<s[\fA%u%Xg47WiM%dP9=`;.)q%d ", -871864553, -350013297, "* ckM:B<[ )Vev&'\"]zmyG^AB|:tT9h2xa/JUo2z >PH2ub'($(Q s%\nH,}+*{x{\ffJ=|2a", -1431523761, 135611837, -1936148, 1421530611, -1716796415, 201878521, 1323404584);
-// 	printf("\n\n");
-// 	int j = printf("(lwd$&:\nfk%x[%c#N\the~,%sw\fZ@8bbI!Y%i6,|Sts(?`\f%i4}[&uFdj\r%u.J<s[\fA%u%Xg47WiM%dP9=`;.)q%d ", -871864553, -350013297, "* ckM:B<[ )Vev&'\"]zmyG^AB|:tT9h2xa/JUo2z >PH2ub'($(Q s%\nH,}+*{x{\ffJ=|2a", -1431523761, 135611837, -1936148, 1421530611, -1716796415, 201878521, 1323404584);
-// 	printf("\n\n\n\n\n%i == %i\n", i, j);
-// }
